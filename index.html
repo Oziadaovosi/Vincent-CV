@@ -4,22 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vincent Onotu Bello - Technical CV</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>Vincent Onotu Bello</h1>
-    <img src="images/myphoto.jpg" alt="Vincent Onotu Bello" width="150">
-    <p><strong>Date of Birth:</strong> 20 November 1991</p>
-    <p><strong>Nationality:</strong> Nigerian</p>
-    <p><strong>Address:</strong> 1, His Grace Avenue Street, Saburi Dei Dei, Abuja, Nigeria</p>
-    <p><strong>Phone:</strong> +234 805 797 7514 | +234 810 063 6360</p>
-    <p><strong>Email:</strong> <a href="mailto:vincent4rich@gmail.com">vincent4rich@gmail.com</a></p>
+<body class="bg-gradient-to-br from-slate-50 to-slate-100 text-slate-900">
+  <!-- Header Section -->
+  <header class="bg-white shadow-lg border-b-4 border-blue-600">
+    <div class="max-w-4xl mx-auto px-6 py-12">
+      <div class="flex flex-col md:flex-row items-center gap-8">
+        <img
+          src="images/myphoto.jpg"
+          alt="Vincent Onotu Bello"
+          class="w-40 h-40 rounded-full border-4 border-blue-600 shadow-lg object-cover"
+        >
+        <div class="flex-1 text-center md:text-left">
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">Vincent Onotu Bello</h1>
+          <p class="text-lg text-blue-600 font-semibold mb-4">Technical Support Specialist | IT Support Professional</p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-gray-700">
+            <div>
+              <p class="font-semibold text-gray-900">📅 <span class="font-normal">20 November 1991</span></p>
+              <p class="font-semibold text-gray-900">🌍 <span class="font-normal">Nigerian</span></p>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-900">📍 <span class="font-normal">Abuja, Nigeria</span></p>
+            </div>
+          </div>
+
+          <div class="flex flex-col md:flex-row gap-4 mt-4 text-sm">
+            <a href="tel:+234805797514" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium">
+              📱 +234 805 797 7514
+            </a>
+            <a href="mailto:vincent4rich@gmail.com" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium">
+              ✉️ vincent4rich@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>About Myself</h2>
-      <p>
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <!-- About Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4 pb-3 border-b-2 border-blue-600">About Myself</h2>
+      <p class="text-gray-700 leading-relaxed text-justify">
         Proactive IT Support and Technical Support Specialist with proven expertise in remote troubleshooting, system configuration, and end-user assistance.
         Skilled in diagnosing hardware, software, and network-related issues while applying security best practices.
         Certified in IT Support, Cloud Computing & DevOps, Networking, and Cybersecurity, with strong technical knowledge and problem-solving abilities to maintain system reliability and enhance productivity.
@@ -27,86 +56,177 @@
       </p>
     </section>
 
-    <section>
-      <h2>Work Experience</h2>
+    <!-- Work Experience Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-blue-600">Work Experience</h2>
 
-      <article>
-        <h3>Technical Support Specialist (Remote) – I’LLTIP</h3>
-        <p><strong>Duration:</strong> January 2024 – Present | USA</p>
-        <ul>
-          <li>Provide remote technical assistance via chat, email, and remote desktop tools.</li>
-          <li>Troubleshoot software, hardware, and network issues, escalating complex cases as needed.</li>
-          <li>Configure user accounts, permissions, and security settings.</li>
-          <li>Deliver step-by-step guidance to minimize client downtime.</li>
-          <li>Document technical solutions for future use and team reference.</li>
-          <li>Collaborate with developers to report system bugs and recommend improvements.</li>
+      <article class="bg-white rounded-lg shadow-md p-6 mb-6 border-l-4 border-blue-600 hover:shadow-lg transition-shadow">
+        <h3 class="text-2xl font-bold text-gray-900 mb-2">Technical Support Specialist (Remote)</h3>
+        <p class="text-blue-600 font-semibold mb-4">I’LLTIP | January 2024 – Present | USA</p>
+        <ul class="space-y-2 text-gray-700">
+          <li class="flex items-start gap-3">
+            <span class="text-blue-600 font-bold mt-1">✓</span>
+            <span>Provide remote technical assistance via chat, email, and remote desktop tools.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-blue-600 font-bold mt-1">✓</span>
+            <span>Troubleshoot software, hardware, and network issues, escalating complex cases as needed.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-blue-600 font-bold mt-1">✓</span>
+            <span>Configure user accounts, permissions, and security settings.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-blue-600 font-bold mt-1">✓</span>
+            <span>Deliver step-by-step guidance to minimize client downtime.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-blue-600 font-bold mt-1">✓</span>
+            <span>Document technical solutions for future use and team reference.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-blue-600 font-bold mt-1">✓</span>
+            <span>Collaborate with developers to report system bugs and recommend improvements.</span>
+          </li>
         </ul>
       </article>
 
-      <article>
-        <h3>Transaction Officer – Access Bank Plc</h3>
-        <p><strong>Duration:</strong> August 2013 – June 2019 | Abuja, Nigeria</p>
-        <ul>
-          <li>Managed cash transactions, funds transfers, and foreign exchange operations.</li>
-          <li>Processed NEFT, NIBSS, RTGS, and FX transactions efficiently and accurately.</li>
-          <li>Delivered customer support in line with banking standards and confidentiality policies.</li>
+      <article class="bg-white rounded-lg shadow-md p-6 mb-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow">
+        <h3 class="text-2xl font-bold text-gray-900 mb-2">Transaction Officer</h3>
+        <p class="text-green-600 font-semibold mb-4">Access Bank Plc | August 2013 – June 2019 | Abuja, Nigeria</p>
+        <ul class="space-y-2 text-gray-700">
+          <li class="flex items-start gap-3">
+            <span class="text-green-600 font-bold mt-1">✓</span>
+            <span>Managed cash transactions, funds transfers, and foreign exchange operations.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-green-600 font-bold mt-1">✓</span>
+            <span>Processed NEFT, NIBSS, RTGS, and FX transactions efficiently and accurately.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-green-600 font-bold mt-1">✓</span>
+            <span>Delivered customer support in line with banking standards and confidentiality policies.</span>
+          </li>
         </ul>
       </article>
 
-      <article>
-        <h3>Industrial Attachment – Charity Hospital, Obeiba Ihima</h3>
-        <p><strong>Duration:</strong> January 2010 – February 2011 | Kogi, Nigeria</p>
-        <ul>
-          <li>Supported laboratory operations, maintained equipment, and recorded test results accurately.</li>
+      <article class="bg-white rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:shadow-lg transition-shadow">
+        <h3 class="text-2xl font-bold text-gray-900 mb-2">Industrial Attachment</h3>
+        <p class="text-purple-600 font-semibold mb-4">Charity Hospital, Obeiba Ihima | January 2010 – February 2011 | Kogi, Nigeria</p>
+        <ul class="space-y-2 text-gray-700">
+          <li class="flex items-start gap-3">
+            <span class="text-purple-600 font-bold mt-1">✓</span>
+            <span>Supported laboratory operations, maintained equipment, and recorded test results accurately.</span>
+          </li>
         </ul>
       </article>
     </section>
 
-    <section>
-      <h2>Education & Training</h2>
-      <ul>
-        <li><strong>National Diploma in Science Laboratory Technology</strong> – Kogi State Polytechnic, Lokoja (2008 – 2010)</li>
-        <li><strong>Senior Secondary School Certificate</strong> – Ihima Community Secondary School (2001 – 2007)</li>
-      </ul>
+    <!-- Education Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-blue-600">Education & Training</h2>
+      <div class="grid gap-4">
+        <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-indigo-600">
+          <h3 class="font-bold text-gray-900 text-lg">National Diploma in Science Laboratory Technology</h3>
+          <p class="text-gray-600">Kogi State Polytechnic, Lokoja (2008 – 2010)</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-indigo-600">
+          <h3 class="font-bold text-gray-900 text-lg">Senior Secondary School Certificate</h3>
+          <p class="text-gray-600">Ihima Community Secondary School (2001 – 2007)</p>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Language Skills</h2>
-      <ul>
-        <li><strong>English:</strong> Proficient (C1 level) — Listening, Speaking, Reading, Writing</li>
-      </ul>
+    <!-- Language Skills Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-blue-600">Language Skills</h2>
+      <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-cyan-600">
+        <p class="text-lg"><span class="font-bold text-gray-900">English:</span> <span class="text-cyan-600 font-semibold">Proficient (C1 level)</span></p>
+        <p class="text-sm text-gray-600 mt-2">Listening, Speaking, Reading, Writing</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Skills & Knowledge</h2>
-      <ul>
-        <li>IT Support & Troubleshooting</li>
-        <li>Remote Technical Assistance</li>
-        <li>Cloud & DevOps Fundamentals</li>
-        <li>Network Configuration & Security Basics</li>
-        <li>End-User Training & Documentation</li>
-        <li>Windows & Linux Operating Systems</li>
-        <li>Tools: Remote Desktop, Ticketing Systems, Microsoft 365, Google Workspace</li>
-      </ul>
+    <!-- Skills Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-blue-600">Skills & Knowledge</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div class="flex items-center gap-3 bg-white rounded-lg shadow p-4 border-l-4 border-blue-500">
+          <span class="text-lg">🛠️</span>
+          <span class="font-medium text-gray-900">IT Support & Troubleshooting</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white rounded-lg shadow p-4 border-l-4 border-blue-500">
+          <span class="text-lg">🌐</span>
+          <span class="font-medium text-gray-900">Remote Technical Assistance</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white rounded-lg shadow p-4 border-l-4 border-blue-500">
+          <span class="text-lg">☁️</span>
+          <span class="font-medium text-gray-900">Cloud & DevOps Fundamentals</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white rounded-lg shadow p-4 border-l-4 border-blue-500">
+          <span class="text-lg">🔒</span>
+          <span class="font-medium text-gray-900">Network Configuration & Security</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white rounded-lg shadow p-4 border-l-4 border-blue-500">
+          <span class="text-lg">📚</span>
+          <span class="font-medium text-gray-900">End-User Training & Documentation</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white rounded-lg shadow p-4 border-l-4 border-blue-500">
+          <span class="text-lg">💻</span>
+          <span class="font-medium text-gray-900">Windows & Linux Operating Systems</span>
+        </div>
+      </div>
+      <div class="bg-blue-50 rounded-lg shadow-md p-6 mt-6 border-l-4 border-blue-600">
+        <p class="font-semibold text-gray-900 mb-3">🧰 Tools & Platforms</p>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-sm font-medium">Remote Desktop</span>
+          <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-sm font-medium">Ticketing Systems</span>
+          <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-sm font-medium">Microsoft 365</span>
+          <span class="bg-blue-200 text-blue-900 px-3 py-1 rounded-full text-sm font-medium">Google Workspace</span>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Certifications</h2>
-      <ul>
-        <li>Introduction to Cybersecurity – Cisco Networking Academy (2025)</li>
-        <li>IT Support – Digital Witch (Feb 2024)</li>
-        <li>Cloud Computing & DevOps – Digital Witch (2025)</li>
-      </ul>
+    <!-- Certifications Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-blue-600">Certifications</h2>
+      <div class="grid gap-4">
+        <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg shadow-md p-6 border-l-4 border-yellow-600 flex items-center gap-4">
+          <span class="text-3xl">🏆</span>
+          <div>
+            <p class="font-bold text-gray-900">Introduction to Cybersecurity</p>
+            <p class="text-gray-600 text-sm">Cisco Networking Academy (2025)</p>
+          </div>
+        </div>
+        <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg shadow-md p-6 border-l-4 border-green-600 flex items-center gap-4">
+          <span class="text-3xl">🎓</span>
+          <div>
+            <p class="font-bold text-gray-900">IT Support</p>
+            <p class="text-gray-600 text-sm">Digital Witch (Feb 2024)</p>
+          </div>
+        </div>
+        <div class="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-lg shadow-md p-6 border-l-4 border-purple-600 flex items-center gap-4">
+          <span class="text-3xl">☁️</span>
+          <div>
+            <p class="font-bold text-gray-900">Cloud Computing & DevOps</p>
+            <p class="text-gray-600 text-sm">Digital Witch (2025)</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>References</h2>
-      <p>Available upon request.</p>
+    <!-- References Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 pb-3 border-b-2 border-blue-600">References</h2>
+      <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-600 text-center">
+        <p class="text-gray-700 italic">Available upon request.</p>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>Last updated: November 2025</p>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-8 mt-16">
+    <p class="text-sm">Last updated: November 2025</p>
+    <p class="text-xs mt-2">© 2025 Vincent Onotu Bello. All rights reserved.</p>
   </footer>
 </body>
 </html>
